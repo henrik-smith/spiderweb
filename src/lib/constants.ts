@@ -1,0 +1,152 @@
+export const TRACKS = [
+  {
+    id: 'spider',
+    title: 'SPIDER',
+    album: 'SINGLE',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/spider.mp3',
+  },
+  {
+    id: 'got-me',
+    title: 'GOT ME',
+    album: 'MARIO DANTE',
+    year: 2024,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/got-me.mp3',
+  },
+  {
+    id: 'feel',
+    title: 'FEEL',
+    album: 'TOUGH TIMES',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/feel.mp3',
+  },
+  {
+    id: 'designer',
+    title: 'DESIGNER',
+    album: 'TOUGH TIMES',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/designer.mp3',
+  },
+  {
+    id: 'tough-time',
+    title: 'TOUGH TIME',
+    album: 'TOUGH TIMES',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/tough-time.mp3',
+  },
+  {
+    id: 'good-as-gold',
+    title: 'GOOD AS GOLD',
+    album: 'TOUGH TIMES',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/good-as-gold.mp3',
+  },
+  {
+    id: 'heavy-is-the-head',
+    title: 'HEAVY IS THE HEAD',
+    album: 'TOUGH TIMES',
+    year: 2025,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/heavy-is-the-head.mp3',
+  },
+  {
+    id: 'mario-dante',
+    title: 'MARIO DANTE',
+    album: 'MARIO DANTE',
+    year: 2024,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/mario-dante.mp3',
+  },
+  {
+    id: 'ridiculous',
+    title: 'RIDICULOUS',
+    album: 'MARIO DANTE',
+    year: 2024,
+    bpm: null,
+    duration: null,
+    spotifyUrl: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    audioSrc: '/audio/ridiculous.mp3',
+  },
+] as const;
+
+export const ALBUMS = [
+  {
+    id: 'tough-times',
+    title: 'TOUGH TIMES',
+    year: 2025,
+    type: 'EP',
+    trackIds: ['good-as-gold', 'feel', 'designer', 'heavy-is-the-head', 'tough-time'],
+  },
+  {
+    id: 'mario-dante',
+    title: 'MARIO DANTE',
+    year: 2024,
+    type: 'EP',
+    trackIds: ['mario-dante', 'got-me', 'ridiculous'],
+  },
+] as const;
+
+export const BAND = {
+  name: 'NOM DE GUERRE',
+  tagline: 'Where hip-hop meets house. The world of Mario Dante.',
+  bio: 'Step into the captivating musical universe of Nom De Guerre, where rapper Vuyo and producer Ultraposh join forces to transcend the boundaries between hip-hop and house music.',
+  cities: ['OSLO', 'BERLIN', 'JOHANNESBURG'],
+  label: 'North Of',
+  socials: {
+    instagram: 'https://www.instagram.com/lenomdeguerre/',
+    spotify: 'https://open.spotify.com/artist/48ugyrEnCS87XL4I4V0xPs',
+    soundcloud: 'https://soundcloud.com/nom-de-guerre-music',
+    appleMusic: 'https://music.apple.com/us/artist/nom-de-guerre/253238090',
+  },
+} as const;
+
+export const MEMBERS = [
+  {
+    name: 'VUYO',
+    fullName: 'Ole Vuyo Småge',
+    role: 'Rapper / Vocalist',
+    bio: 'Born in Zimbabwe to parents who stood alongside Mandela in the liberation movements. Death threats forced the family to flee — Vuyo grew up between South Africa, Zambia, and Norway, settling in Oslo as a teenager. His name means "happiness" in Xhosa.',
+    instagram: 'https://www.instagram.com/olevuyo/',
+    spotify: 'https://open.spotify.com/artist/6pWOGQubsgAiEZmzioIyDi',
+  },
+  {
+    name: 'ULTRAPOSH',
+    fullName: 'Ole Petter Ålgård',
+    role: 'Producer / Keys',
+    bio: "Oslo-based producer and keyboardist. The sonic architect behind Nom de Guerre's dark basslines and pulsating beats. As Ultraposh, he crafts the sonic landscapes that bridge Oslo's underground scene with the clubs of Berlin and Johannesburg.",
+    instagram: 'https://www.instagram.com/olepetter_aalgaard/',
+  },
+] as const;
+
+export const UPCOMING_SHOWS = [
+  {
+    date: '2026-08-09',
+    venue: 'Øyafestivalen',
+    city: 'Oslo',
+    stage: 'Klubben',
+    time: '15:50',
+    ticketUrl: 'https://oyafestivalen.no',
+  },
+] as const;
