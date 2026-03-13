@@ -40,9 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Large media files (not for git)
-public/audio/*.mp3
+# Large source media (keep out of git)
 public/audio/*.wav
 public/*.mov
 public/ndg-hero.mp4
-public/ndg-hero-720p.mp4
